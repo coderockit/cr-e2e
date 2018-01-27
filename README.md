@@ -1,2 +1,2 @@
 # cr-e2e
-End-To-End testing for the CodeRockit command line processor
+End-To-End testing for the CodeRockIt command line processor
