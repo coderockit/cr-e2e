@@ -6,7 +6,7 @@ int main()
     printf("Enter number of rows: ");
     scanf("%d",&rows);
 
-    // BEGIN crput:/asdf/asdfasdfasdf/v1.1.1/
+    // PUT crpin://coderockit.io/asdf/asdfasdfasdf/v1.1.1/sdfsd
     for(i=1; i<=rows; ++i, k=0)
     {
         for(space=1; space<=rows-i; ++space)
@@ -22,10 +22,10 @@ int main()
 
         printf("\n");
     }
-    // END crput
+    // ENDPUT crpin
 
-    // BEGIN crget:/qwer/qwerqwerqwer/v2.3.5/
-    // END crget
+    // GET crpin://coderockit.io/qwer/qwerqwerqwer/v2.3.5/
+    // ENDGET crpin
 
     return 0;
 }
