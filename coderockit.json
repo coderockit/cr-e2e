@@ -6,6 +6,5 @@
     "scrypt.p": 1,
     "scrypt.keylen": 32,
     "apiProtocol": "https",
-    "apiPinResource": "api/v1/pin",
-    "apiAccessToken": "move to home .coderockit/config.json and support an anonymous user space"
+    "apiCRIResource": "api/v1/cri"
 }
