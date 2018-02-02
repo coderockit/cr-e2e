@@ -6,5 +6,5 @@
     "scrypt.p": 1,
     "scrypt.keylen": 32,
     "apiProtocol": "https",
-    "apiCRIResource": "api/v1/cri"
+    "apiCRIResource": "api/v1/pin"
 }
