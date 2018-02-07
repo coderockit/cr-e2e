@@ -55,7 +55,7 @@ func main() {
     // be helpful for file reading. For example, reads
     // like the ones above can be more robustly
     // implemented with `ReadAtLeast`.
-    // PUT pin://coderockit.io/asdff/asdfasdfasdtf/1.4.1
+    // PUT /pin/asdff/asdfasdfasdtf/1.4.1
     o3, err := f.Seek(6, 0)
     check(err)
     b3 := make([]byte, 2)
@@ -73,6 +73,10 @@ func main() {
     // reader that may be useful both for its efficiency
     // with many small reads and because of the additional
     // reading methods it provides.
+    
+    // no version means it will calculate the next version for you
+    // and PUT that version IF there is new content in the pin
+    // PUT /pin/asdff/asdfasdfasdtf
     r4 := bufio.NewReader(f)
     b4, err := r4.Peek(5)
     check(err)
