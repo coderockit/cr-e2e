@@ -1,10 +1,10 @@
 {
-    "logger.config": "<root>=ERROR; coderockit.cli.main=DEBUG; coderockit.cli.config=DEBUG; coderockit.cli.hash=DEBUG; coderockit.cli.add=DEBUG; coderockit.cli.fileio=DEBUG; coderockit.cli.crcli=DEBUG",
+    "logger.config": "<root>=ERROR; coderockit.cli.main=DEBUG; coderockit.cli.config=DEBUG; coderockit.cli.hash=DEBUG; coderockit.cli.cmds=DEBUG; coderockit.cli.fileio=DEBUG; coderockit.cli.crcli=DEBUG",
     "scrypt.saltByteArraySize": 16,
     "scrypt.memoryCostParameter": 32768,
     "scrypt.r": 8,
     "scrypt.p": 1,
     "scrypt.keylen": 32,
     "apiAllowInsecure": true,
-    "apiURLs": ["https://coderockit.io/api/v1/pin", "http://localhost:8085/pin"]
+    "apiURLs": ["https://coderockit.io/api/v1/pin"]
 }
