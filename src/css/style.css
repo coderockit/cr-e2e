@@ -2,6 +2,9 @@ p {
     border-style: solid;
 }
 
+/* GET /pin/asdbf/asdfagdfasdtf/8.0.45 */
+/* ENDPIN */
+
 p.none {border-right-style: none;}
 p.dotted {border-right-style: dotted;}
 p.dashed {border-right-style: dashed;}

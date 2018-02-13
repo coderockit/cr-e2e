@@ -8,6 +8,9 @@
      (setf *big* (1- (guess-my-number)))
      (guess-my-number))
 
+;;;; GET /pin/qwer/qwerqwerqwer/*
+;;;; ENDPIN
+
 (defun bigger ()
      (setf *small* (1+ (guess-my-number)))
      (guess-my-number))

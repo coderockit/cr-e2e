@@ -15,6 +15,7 @@ public class Puppy {
       return puppyAge;
    }
 
+   // PUTPRIVATE /pin/asdg/asdgasdfasdf/^1
    public static void main(String []args) {
       /* Object creation */
       Puppy myPuppy = new Puppy( "tommy" );
@@ -28,4 +29,5 @@ public class Puppy {
       /* You can access instance variable as follows as well */
       System.out.println("Variable Value :" + myPuppy.puppyAge );
    }
+   // ENDPIN
 }

@@ -6,5 +6,5 @@
     "scrypt.p": 1,
     "scrypt.keylen": 32,
     "apiAllowInsecure": true,
-    "apiURLs": ["https://coderockit.io/api/v1/pin"]
+    "apiURLs": ["https://coderockit.io/api/v1"]
 }

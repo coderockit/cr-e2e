@@ -17,10 +17,10 @@ program cylinder
 
 !   Prompt the user for radius and height
 !   and read them.
-
+! PUT /pin/asgg/asggasdfasdf/*
     write (*,*) 'Enter radius and height.'
     read (*,*,iostat=ierr) radius,height
-
+! ENDPIN
 !   If radius and height could not be read from input,
 !   then cycle through the loop.
 
