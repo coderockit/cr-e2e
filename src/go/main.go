@@ -81,7 +81,8 @@ func main() {
     b4, err := r4.Peek(5)
     check(err)
     fmt.Printf("5 bytes: %s\n", string(b4))
-
+	// ENDPIN
+	
     // Close the file when you're done (usually this would
     // be scheduled immediately after `Open`ing with
     // `defer`).

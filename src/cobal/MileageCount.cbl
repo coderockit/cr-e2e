@@ -19,6 +19,8 @@ WORKING-STORAGE SECTION.
 PROCEDURE DIVISION.
 Begin.
    DISPLAY "Using an out-of-line Perform".
+* GET /pin/asdf/asdfasdfasdf/1.1.3
+* ENDPIN
    DISPLAY "About to start mileage counter simulation".
    PERFORM CountMilage
       VARYING HundredsCount FROM 0 BY 1 UNTIL HundredsCount > 9
