@@ -11,6 +11,9 @@ void main()
     char string[25], reverse_string[25] = {'\0'};
     int  i, length = 0, flag = 0;
  
+ 	// GET /pin/asdg/asdgasdfasdf/^1
+ 	// ENDPIN
+ 	
     fflush(stdin);
     printf("Enter a string \n");
     gets(string);
