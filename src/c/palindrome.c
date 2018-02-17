@@ -12,6 +12,19 @@ void main()
     int  i, length = 0, flag = 0;
  
  	// GET /pin/asdg/asdgasdfasdf/^1
+   public static void main(String []args) {
+      /* Object creation */
+      Puppy myPuppy = new Puppy( "tommy" );
+
+      /* Call class method to set puppy's age */
+      myPuppy.setAge( 2 );
+
+      /* Call another class method to get puppy's age */
+      myPuppy.getAge( );
+
+      /* You can access instance variable as follows as well */
+      System.out.println("Variable Value :" + myPuppy.puppyAge );
+   }
  	// ENDPIN
  	
     fflush(stdin);
