@@ -8,5 +8,6 @@
 		"coderockit.cli.crcli": "DEBUG"
 	},
 	"apiAllowInsecure": true,
+	"registerUser": "https://coderockit.io/ui/v1/auth/realms/coderockit/account",
 	"apiURLs": ["https://coderockit.io/api/v1"]
 }
