@@ -2,10 +2,10 @@
 	"logger.config": {
 		"root": "ERROR",
 		"coderockit.cli.config": "DEBUG",
-		"coderockit.cli.hash": "DEBUG",
+		"coderockit.cli.hash": "INFO",
 		"coderockit.cli.cmds": "DEBUG",
-		"coderockit.cli.fileio": "DEBUG",
-		"coderockit.cli.crcli": "DEBUG"
+		"coderockit.cli.fileio": "INFO",
+		"coderockit.cli.crcli": "INFO"
 	},
 	"apiAllowInsecure": true,
 	"registerUser": "https://coderockit.io/ui/v1/auth/realms/coderockit/account",
